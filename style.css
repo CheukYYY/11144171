@@ -1,0 +1,286 @@
+* {
+/*   border: solid 1px #f09199; */
+  vertical-align: top;
+  box-sizing: border-box;
+  color: #007bbb;
+  font-family:微軟正黑體;
+  letter-spacing:1px;
+}
+html, body{
+  margin:0px;
+  background-color:#f8f4e6;
+}
+.resume{
+  width:900px;
+  margin:auto;
+}
+.top{
+  height:300px;
+  width:100%;
+  background-color:#bce2e8;
+  border: solid 10px #5c9291;
+}
+.tleft,.tright{
+  height:100%;
+  display: inline-block;
+}
+.tleft{
+  width: 35%;
+}
+.tleft>.circle{
+  border: solid 5px #00a3af;
+  background-color: #00a3af;
+  border-radius:100%;
+  margin-top:5px;
+  height:270px;
+  width:270px;
+  overflow:hidden;
+  float:right;
+}
+.tleft img{
+  position: relative;
+  height:100%;
+  width:100%;
+}
+.tright{
+  width:65%;
+  background-color: #c1e4e9;
+  padding:30px;
+  position: relative;
+}
+.introduce{
+  display:inline-block;
+  font-size:18px;
+  margin-left:50px;
+}
+.slogon{
+  display:inline-block;
+  position:absolute;
+  right:10px;
+  bottom:5px;
+  font-size:30px;
+  font-weight:900;
+  color: #ebf6f7;
+  opacity:0.5;
+}
+.bottom{
+  height:1700px;
+  background-color:#ebf6f7;
+  border-left: solid 10px #5c9291;
+  border-right: solid 10px #5c9291;
+  border-bottom: solid 10px #5c9291;
+}
+.left,.right{
+  display:inline-block;
+  height: 100%;
+  width: 70%;
+  box-sizing: border-box;
+}
+.rtop{
+  height:28%;
+}
+.rbottom{
+  height:72%;
+}
+h1 span{
+  font-size: 20px;
+  vertical-align:middle;
+}
+.title{
+  display:inline-block;
+  margin:20px;
+  font-size:18px;
+  font-weight:300;
+  background-color:#5c9291;
+  color:#ebf6f7;
+  border-radius:20px;
+  padding: 2px 20px;
+}
+.bar-graph{
+  margin-left: 50px;
+}
+.bar-graph>span{
+  position:relative;
+  top:-18px;
+  left: 295px;
+  font-size:14px;
+}
+.bar-graph1{
+  width:350px;
+  height:22px;
+  padding:2px;
+  border:solid 2px #2c4f54;
+}
+.bar-graph2{
+  position:relative;
+  background-color:#007bbb;
+  height:16px;
+  top:-19px;
+  left:3px;
+}
+.csharp{
+  width:315px;
+}
+.html{
+  width:262px;
+}
+.css{
+  width:245px;
+}
+.javascript{
+  width:158px;
+}
+.timeline{
+  margin-left:50px;
+}
+.timeline-dot{
+  position:relative;
+  display:inline-block;
+  height:20px;
+  width:20px;
+  background-color:#2c4f54;
+  border-radius:100%;
+}
+.timeline-line{
+  position:relative;
+  left:8px;
+  width:5px;
+  height:22px;
+  background-color:#c1e4e9;
+}
+.article{
+  margin:0px 30px 0px 50px;
+  line-height:28px;
+  font-size:16px;
+}
+.piechart{
+  position:relative;
+  margin:30px 0px 0px 180px;
+}
+.piechart-circle{
+  position:relative;
+  height:100px;
+  width:100px;
+  border: solid 2px #2c4f54;
+  border-radius:100%;
+  overflow:hidden;
+}
+.piechart-region{
+  position:absolute;
+  height:50px;
+  width:50px;
+}
+.piechart-line, piechart-text{
+  position:absolute;
+  height:2px;
+  width:80px;
+}
+.piechart-text{
+  position:absolute;
+  color:#2c4f54;
+}
+.region1{
+  left:50px;
+}
+.region2{
+  left:59px;
+  top:16px;
+  transform:rotate(30deg);
+}
+.region3{
+  left:35px;
+  top:58px;
+  transform:rotate(30deg);
+}
+.region4{
+  left:3px;
+  top:53px;
+  transform: rotate(-7.5deg);
+}
+.region5{
+  left:-3px;
+  top:4px;
+  transform: rotate(-7.5deg);
+}
+.region6{
+  left:20px;
+  top:-11px;
+  transform: rotate(37.5deg);
+}
+.sleep, .sleep-line{
+  background-color:#007bbb;
+}
+.work, .work-line{
+  background-color:#44617b
+}
+.freetime, .freetime-line{
+  background-color:#478384;
+}
+.study, .study-line{
+  background-color:#68699b;
+}
+.sleep>span{
+  position:absolute;
+  color:#ebf6f7;
+  top:22px;
+  left:20px;
+  transform:rotate(0deg);
+}
+.work>span{
+  position:absolute;
+  color:#ebf6f7;
+  top:10px;
+  left:28px;
+  transform:rotate(7.5deg);
+}
+.freetime>span{
+  position:absolute;
+  color:#ebf6f7;
+  top:26px;
+  left:6px;
+  transform:rotate(7.5deg);
+}
+.study>span{
+  position:absolute;
+  color:#ebf6f7;
+  top:22px;
+  left:16px;
+  transform:rotate(-37.5deg);
+}
+.sleep-line{
+  top:70px;
+  left:47px;
+  transform:rotate(30deg);
+  color:#007bbb;
+}
+.sleep-text{
+  top:65px;
+  left:115px;
+}
+.work-line{
+  top:57px;
+  left:-27px;
+  transform:rotate(-7.5deg);
+}
+.work-text{
+  top:65px;
+  left:-110px;
+}
+.freetime-line{
+  top:26px;
+  left:-20px;
+  transform:rotate(37.5deg);
+}
+.freetime-text{
+  top:-2px;
+  left:-158px;
+}
+.study-line{
+  top:8px;
+  left:11px;
+  transform:rotate(90deg);
+}
+.study-text{
+  top:-40px;
+  left:-50px;
+}
